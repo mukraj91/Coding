@@ -1,1 +1,1 @@
-Practice coding for self improvment.
+Practice coding for self improvement.
