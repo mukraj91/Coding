@@ -1,0 +1,235 @@
+
+
+
+/* Abstarct class*/
+
+class A {
+ 
+ public:
+ 
+ virtual void break() = 0; 
+ 
+ ~A() {
+ 
+ // Aclass destructor
+ 
+ }
+ A()
+ {
+  // A class constructor
+ 
+ }
+
+}; // Class A close
+
+class B : public A
+{
+
+public:
+
+
+B() {
+ // B class constructor
+}
+~B()
+{
+
+// B class desctructor
+}
+
+void break() override
+{
+ // Implemetation of break function
+
+}
+  
+}; // Class B close
+
+
+class C : public A 
+{
+
+public:
+
+// C class constructor
+}
+~C()
+{
+
+// C class desctructor
+}
+
+void break()
+{
+ // Implemetation of break function
+
+}
+
+
+}; // Class c close
+
+// MAIN FUNCTION
+
+int main()
+{
+
+A obj;
+
+
+A *object = new B();
+
+object->break(); // Call b class break function
+
+delete object;
+
+return 0;
+
+}
+
+// 
+
+
+// Implementation of singalton pattern
+
+
+class Dbmanager()
+{
+private:
+
+Dbmnager(){}
+Dbmnager(const Dbmanager & dbObj){}
+Dbmnager & operator = (const Dbmanager & dbObj){}
+static Dbmanager* getInstance;
+
+public:
+
+static Dbmanager* SingleObj()
+{
+if(getInstance == NULL)
+{
+  getInstance = new Dbmanager(); // Object created
+ 
+}
+ else
+{
+   return getInstance;
+}
+
+
+  return getInstance;
+  
+}; // close Dbmanager
+
+
+// Implementation of add and even through 2 threads, and print the value.
+
+
+
+#include<thread>
+#include<conditional_variable>
+
+using name space std; 
+
+void PrintOddAndEven(bool case , int n)
+{
+
+int counter = 1;
+
+while(counter<n) 
+{
+
+  mutex m;
+  conditional_variable cond;
+  lock_uniquq<mutex>(m);
+  cond.wait([]() { return counter%2 == case}) // lamda function used here
+  cout<<counter<<endl;
+  count.notify_all();
+
+} // close while loop 
+}// close PrintOddAndEven 
+
+
+
+
+int main()
+{
+
+auto value = 100;
+
+thread thread1(PrintOddAndEven, true, value); // thread one 
+thread thread2(PrintOddAndEven, flase, value); //// thread two 
+thread1.join();
+thread2.join();
+
+
+return 0;
+
+} // close of main
+
+
+
+// filesystem --/
+
+/bin /ext/ lib 
+
+ elf -> 
+  stack 
+  heap --> dynamic 
+  data sec -> Gabal vari
+      bss --> 
+  register --> 
+
+
+static int i; // 
+
+extern int i; // dection
+
+int i ;
+
+--------------------------------
+A.c
+
+extern int valueA;
+
+
+B.cpp
+  
+int valueA = 3;
+
+
+--------------------------
+
+class GateKepper
+
+{
+ hyward --> 
+ tml 
+
+}
+
+GateKepper 
+
+
+(1) 
+
+logcat 
+
+
+// Core dupe --> linux 
+
+// fast boot <imr>
+
+trea -> All the any  (1) 
+
+long_boot log
+
+-> boot to ui -->
+
+--? Cayplay 
+
+abd 
+
+
+-> Ioc ->  + soc -> android
+-------------------------------
+-> 
