@@ -1,6 +1,26 @@
+(Yocto qiestion)
+-> which yocto version did u worked ?
+-> what is bitbake
+-> what is poky
+-> How to write receipy
+-> What contain meta layer 
+
+(Embedded Linux) 
+
+-> Memory layout 
+-> Extern uses
+-> Linux file system
+-> Core dupe how to debug
+
+(Android Question:- )
+
+What is HAL Layer ?
+What is difference beetween HIDL and AIDL ?
+What is difference beetween MK file and BP file ?
+How the sepolicy worked ?
 
 
-
+---------------------------
 /* Abstarct class*/
 
 class A {
