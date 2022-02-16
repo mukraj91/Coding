@@ -1,4 +1,48 @@
 Interview Questions 
+---------------------------
+There were positives:
+
+
+- integration experiences from reference board to target hardware
+
+- C++ expertise: HAL/middleware experiences like gstreamer
+
+- Yocto/git/gerrit experiences
+
+- agile experiences
+
+ 
+
+But there were some other parts of experiences which they need, but they did not see this in your experience:
+
+ 
+
+- not much experiences in customer facing
+
+- less kernel experiences
+
+- no bootloader/OpenMax/Codec2 experiences
+
+- no CTS/VTS experiences
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------
 Basic General Questions: 
 •	What types of “testing” you know and what do they test exactly? 
 o	Will a test give you complete assurance that everything will work?
