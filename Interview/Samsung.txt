@@ -26,22 +26,6 @@ But there were some other parts of experiences which they need, but they did not
 - no CTS/VTS experiences
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -------------------------------
 Basic General Questions: 
 •	What types of “testing” you know and what do they test exactly? 
