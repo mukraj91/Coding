@@ -1,6 +1,59 @@
 
-Find a second higetst number in unsorted array?
-Reverse a bit of an interger?
+ //  Find a second higetst number in unsorted array?
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+/*
+
+int main()
+{
+
+ cout<<"Find a second higetst number in unsorted array"<<endl;
+
+ int first = 0, second = 0;
+vector<int> arr{3, 5, 6, 8, 12, 10};
+
+for(auto num : arr)
+{
+	if(num>first)
+	{
+		second = first;
+		first = num;
+	}
+	else if(num>second)
+	{
+		second = num;
+	}
+
+}
+cout<<"Second higest number: "<<second<<endl;
+
+
+	return 0;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+>  Reverse a bit of an interger?
 
 101001 -> 100101
 
@@ -344,7 +397,7 @@ size_of(c) + padding 3 byte + soize_of(i); // * byte
 
 
 
-
+*/
 
 
 
