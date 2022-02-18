@@ -21,6 +21,10 @@ How the sepolicy worked ?
 
 
 ---------------------------
+
+shallow vs deep
+
+
 /* Abstarct class*/
 
 class A {

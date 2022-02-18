@@ -2,11 +2,42 @@
 (Nvidia)
 -> OPPS
 -> Object oriented Programming & Design
+
+
 -> Data Structure
 
 -> Linux OS Internal
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://wiki.sei.cmu.edu/confluence/display/cplusplus/OOP52-CPP.+Do+not+delete+a+polymorphic+object+without+a+virtual+destructor
 
 
 

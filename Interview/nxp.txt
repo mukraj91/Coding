@@ -1,0 +1,390 @@
+
+Find a second higetst number in unsorted array?
+Reverse a bit of an interger?
+
+101001 -> 100101
+
+
+second = 10;
+
+
+int array[6] = {3, 5, 6, 8, 12, 10};
+
+
+
+
+
+// n = 6;
+
+int findSecondHigestNumber(int array[] arr)
+{
+  int secondN;
+  
+    int n = array.lenght();
+	int i;
+	
+	for( i = 0 ; i <n ; i++)
+	{
+	   if(arr[i] < arr[i+1]);
+	   {  
+	      temp = arr[i+1];
+
+	   }	
+	  
+	  
+	  if(prev > temp)
+	  {
+		  secondN = prev;
+	
+      }
+	
+	}
+
+return secondN;
+}
+
+
+(2)Reverse a bit of an interger?
+
+101001 -> 100101
+
+ n = 10;
+ 
+ (3) Write a program to find the middle of the linkedlist.
+ 
+ 
+ 
+ #include<iostream>
+ 
+ using namespace std;
+ 
+ 
+ class Node
+ {
+	 public:
+	 
+	 int data;
+	 Node* node;
+	 Node(int data)
+	 {
+		 this->data = data;
+	 }
+	 
+ };
+
+class LinkedList
+{
+	Node *head = NULL;
+	
+	void push(int data);
+	void print();
+	void FindMiddleNode(Node *node);
+	
+};
+
+void LinkedList::push(int data)
+{
+	Node * tempNode = new Node(data);
+	tempNode->next = head;
+	head = tempNode;
+	
+} // close push
+
+void LinkedList::print()
+{
+	
+	Node *temp = head;
+	
+	while(temp != NULL)
+	{
+		cout<<temp->data<<endl;
+		temp = temp->next;
+	}
+	
+	
+}// close print
+
+int LinkedList::FindMiddleNode(Node *node)
+{
+	
+	int n = 0;
+	Node * temp = node;
+	
+	while(temp != NULL)
+	{
+		n = n+1;
+		temp = temp->next;		
+	}
+	
+	for(i = 0 ; i <n/2 && temp! = NULL; i++)
+	{   		
+		temp = temp->next;
+	}
+	
+	return temp->data;
+}//FindMiddleNode
+
+
+// main function
+
+
+int main()
+{
+	LinkedList node; // Object created 
+	
+	node.push(100);
+	node.push(200);
+	node.push(300);
+	
+	
+	node.print();
+	
+	auto value = FindMiddleNode(node.head);
+	
+	return 0;
+}
+
+
+(4) Write a structure which having char and int variable.
+
+
+struct NXP
+{
+	char c;
+	int i;
+};
+
+size_of(c) + padding 3 byte + soize_of(i); // * byte
+
+1 . . . + 1 1 1 1
+
+8bit -> 1 byte
+
+// Bit field
+// reentrant function.
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Find a second higetst number in unsorted array?
+Reverse a bit of an interger?
+
+101001 -> 100101
+
+
+second = 10;
+
+
+int array[6] = {3, 5, 6, 8, 12, 10};
+
+
+
+
+
+// n = 6;
+
+int findSecondHigestNumber(int array[] arr)
+{
+  int secondN;
+  
+    int n = array.lenght();
+	int i;
+	
+	for( i = 0 ; i <n ; i++)
+	{
+	   if(arr[i] < arr[i+1]);
+	   {  
+	      temp = arr[i+1];
+
+	   }	
+	  
+	  
+	  if(prev > temp)
+	  {
+		  secondN = prev;
+	
+      }
+	
+	}
+
+return secondN;
+}
+
+
+(2)Reverse a bit of an interger?
+
+101001 -> 100101
+
+ n = 10;
+ 
+ (3) Write a program to find the middle of the linkedlist.
+ 
+ 
+ 
+ #include<iostream>
+ 
+ using namespace std;
+ 
+ 
+ class Node
+ {
+	 public:
+	 
+	 int data;
+	 Node* node;
+	 Node(int data)
+	 {
+		 this->data = data;
+	 }
+	 
+ };
+
+class LinkedList
+{
+	Node *head = NULL;
+	
+	void push(int data);
+	void print();
+	void FindMiddleNode(Node *node);
+	
+};
+
+void LinkedList::push(int data)
+{
+	Node * tempNode = new Node(data);
+	tempNode->next = head;
+	head = tempNode;
+	
+} // close push
+
+void LinkedList::print()
+{
+	
+	Node *temp = head;
+	
+	while(temp != NULL)
+	{
+		cout<<temp->data<<endl;
+		temp = temp->next;
+	}
+	
+	
+}// close print
+
+int LinkedList::FindMiddleNode(Node *node)
+{
+	
+	int n = 0;
+	Node * temp = node;
+	
+	while(temp != NULL)
+	{
+		n = n+1;
+		temp = temp->next;		
+	}
+	
+	for(i = 0 ; i <n/2 && temp! = NULL; i++)
+	{   		
+		temp = temp->next;
+	}
+	
+	return temp->data;
+}//FindMiddleNode
+
+
+// main function
+
+
+int main()
+{
+	LinkedList node; // Object created 
+	
+	node.push(100);
+	node.push(200);
+	node.push(300);
+	
+	
+	node.print();
+	
+	auto value = FindMiddleNode(node.head);
+	
+	return 0;
+}
+
+
+(4) Write a structure which having char and int variable.
+
+
+struct NXP
+{
+	char c;
+	int i;
+};
+
+size_of(c) + padding 3 byte + soize_of(i); // * byte
+
+1 . . . + 1 1 1 1
+
+8bit -> 1 byte
+
+// Bit field
+// reentrant function.
+// semapore vs mutex
+// Multithread vs Multiple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
