@@ -48,6 +48,70 @@ like(Harddisk) into main memory(RAM) installed on your computer.
 
 
 
+Power on Switch(CPU) -> Booting Process -> Login Screen
+
+
+https://www.youtube.com/watch?v=FeQGe8_x0yE
+
+6 Steps of Linux Booting Process
+
+BIOS -> Basic Input/Output System.
+         (Execute MBR)
+ > Perform Integrity Check(POST -> Power On Self Test) process)
+ > Check all the device well connected or not
+ > Once all the device check is completed then BIOS search the bootable device.And it will read the firstsector of the bootable device.
+ > First sector conatan the information about MBR
+ > MBR located in the 1st sector of the bootable disk.
+ > Typically /dev/hda or /dev/sda
+> Size of MBR(Master Boot Record(512 Byte))
+ -------------------------------------------------------------------------------------
+Primary Boot Loader(446 Bytes) + Partition Table(64 Bytes) + MBR (2 Bytes) = 512 Byes.
+---------------------------------------------------------------------------------------
+
+
+MBR  -> Master Boot Recorder
+         (Execute GRUB)
+
+-> Bootable device first sector is called MBR.
+-> Once Booloader once search it will GRUB screen will show.
+
+
+
+
+GRUM -> Grand Unified Bootloader
+          (Execute Kernel)
+> How many operating system has installed u can see in GRUB.
+> once GRUM will store the kernel information.
+
+KERNEL -> Kernel(Operating system)
+          (Execute sbin/ init
+> Kernel mount the root file system.
+> Once kernel start its operation is executed.
+/sbin/init process
+
+
+Init  -> Init (systemd)
+          (Execute Run level programs)
+
+> Look at the etc/inittab file to decide the linux run level
+
+
+
+Run Level -> Run Level program (A run level is a state of init and the whole system that defines what system services are operating.)
+            (Execute from /etc/rc.d)
+
+-> Run level decide which initial program are loaded at startup.
+
+init 0  - > Halt ( The system can be safely powered off with no activity.)
+init 1  - > Single user mode
+init 2  - > Multiuser Mode , Without NFS((network file system).)
+init 3  - > Full Multiuser mode (under the command line interface and not under the graphical user interface.)
+init 4  - > Unused (User-definable.)
+init 5  - > X11 (Multiple user mode under GUI (graphical user interface) and this is the standard runlevel for most of the LINUX based systems)
+init 6  - > Reboot (Reboot which is used to restart the system.)
+
+
+Note:- init is the program responsible for altering the run level which can be called using telinit command
 
 
 
