@@ -1,0 +1,67 @@
+https://github.com/Hussain1811/OS-concepts/blob/main/imp_questions.txt
+
+To Watch all the OS video:- 
+
+https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p
+
+
+
+
+> what is difference between multi tasking and multi threading CPU.
+https://www.geeksforgeeks.org/difference-between-multi-tasking-and-multi-threading/
+
+https://byjus.com/gate/difference-between-multi-tasking-and-multi-threading/
+
+
+Multiprogramming -> Non=preemtive
+
+Multitasking -> Preemtive(Time sharing )
+
+
+What is multiprogramming? ->
+
+A multiprogramming is a parallel processing in which the multiple programs can run simultaneously.
+Multi programming is the ability of an os to execute multiple programs at the same time on single processor machine.
+
+
+
+
+Bootstrap program and where is it stored?->
+https://moviecultists.com/where-bootstrap-program-is-stored
+
+
+A bootstrap program is the initial program that the computer runs when it is powered up or rebooted. 
+It initializes all aspects of the system, from CPU registers to device controllers to memory contents. 
+Typically, it is stored in read-only memory (ROM) or electrically erasable programmable read-only memory (EEPROM), 
+known by the general term firmware, within the computer hardware.
+
+
+What is bootstrap loader example?
+A Bootstrap Loader (BSL) is a small program which can be activated immediately after a microcontroller has been powered up.
+
+
+
+Booting Process :- 
+
+The booting process loads the operating system from bootable device
+like(Harddisk) into main memory(RAM) installed on your computer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
