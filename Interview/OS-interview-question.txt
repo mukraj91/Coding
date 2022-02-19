@@ -59,7 +59,8 @@ BIOS -> Basic Input/Output System.
          (Execute MBR)
  > Perform Integrity Check(POST -> Power On Self Test) process)
  > Check all the device well connected or not
- > Once all the device check is completed then BIOS search the bootable device.And it will read the firstsector of the bootable device.
+ > Once all the device check is completed then BIOS search the bootable device.And it will read the firstsector of 
+ the bootable device.
  > First sector conatan the information about MBR
  > MBR located in the 1st sector of the bootable disk.
  > Typically /dev/hda or /dev/sda
@@ -222,6 +223,19 @@ Compaction is the solution for external fragmentation.
 
 Compaction?
 Compaction is a process in which the free space is collected in a large memory chunk to make some space available for processes.
+
+
+
+
+
+Paging ?
+
+Paging is a storage mechanism that allows OS to retrieve processes from the secondary storage into the main memory in the form of pages.
+
+In the Paging method, the main memory is divided into small fixed-size blocks of physical memory,
+ which is called frames. 
+ The size of a frame should be kept the same as that of a page to have maximum utilization of 
+ the main memory and to avoid external fragmentation. Paging is used for faster access to data, and it is a logical concept.
 
 
 
