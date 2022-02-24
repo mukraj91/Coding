@@ -1,5 +1,4 @@
 1st Round :- 
----------------
 
 > Implement Run time polymorphism.
 > How to debug if thread crash
@@ -8,7 +7,7 @@
 > How to communicate with process
 > How to communicate wit thread
 > Communication Protocall like (I2C, URAT, SPI) ?
-
+> 
 
 
 
