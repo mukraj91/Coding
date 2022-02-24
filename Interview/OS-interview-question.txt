@@ -5,6 +5,233 @@ To Watch all the OS video:-
 https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p
 
 
+https://www.interviewbit.com/operating-system-interview-questions/
+
+
+
+-----------------------------------------------------
+
+
+
+Syllable of operating system:-
+
+> Basic Introduction
+
+-> Type of operating system
+-> Process diagram
+
+
+-> Process scheduling(CPU scheduling)
+    (FIFO, SJP, ROUNF ROBIN)
+
+-> Process synchronization
+   (Semaphore, Mutex)
+
+-> Deadlock & threads
+  
+
+-> Memory management
+     (Paging, segmentation, Fregmentation, 
+      Virtula Memory, Page Replacement algo)
+
+
+
+-> Disk Scheduling 
+    (SSCAN, CSCAN, FCFS)
+
+-> 
+
+
+-> File management & Security
+    (Sequence acess, random access, link access)
+
+
+
+---------------------------
+Introduction os OS:-
+
+User -> Application -> Operating System -> Hardware
+
+> Resouce Management
+> Process Management(CPU Scheduling Algoritham)
+> Storage Management
+> Memory Management
+> Security and Pravicy
+
+
+System Call -> 
+
+
+Throuput -> Number of task execute per unit time.
+
+---------------------
+Type of Operating System:-
+
+> Batch -> Batch od similar job 
+> Multi Programmed 
+> Multitasking
+> Real time OS
+> Distributed 
+> Clustred 
+> Embedded
+
+------------------------------------------
+Multiprogrammed OS(Non - PreemPtive)
+Multi tasking or time sharing (Preemptive)
+
+
+-------------------------------------------
+Real time OS -> (Hard -> Missile  
+                 Soft  -> Gaming )
+
+Distributed OS -> Connected machine with network
+Clustered  -> Connect with some lane with single computer
+Embedded -> Working with fixed micro web
+
+---------------------------------------------
+Process States(Process Lifecycle)
+
+New(Created & Seconday memeory) -> Ready(RAM) -> Running -> Terminated 
+
+
+
+> Long term schedulaer -> Take all the program in ready queue
+> Dispatched schulaer ->  take from Ready queue to running queue
+> Time quantum -> CUP run the process with fixed time
+> Short term schedular -> used for Dispatched
+
+-----------------------
+
+Fork() -> To create a child process.
+
+---------------------------
+
+User Mode vs KErnel Mode
+--------------------------------------
+
+User Mode -> System call -> Kernel Mode
+
+https://www.geeksforgeeks.org/difference-between-user-mode-and-kernel-mode/
+
+
+-------------------------------------------
+
+Process vs thread:
+------------------
+Process :- 
+
+> System called invloved in the process
+> Thread not using system call
+----
+> Operating stsrem treats different process diffrentely
+> All user level threads treates as single task fro OS
+
+------
+> Different process have different copies of Data, files, code
+> Thread share same copy of data and code
+-----
+> Process Context switching is slower
+> Context switching is faster
+
+------
+> Blocking a process will not block another process
+> If thread is block the all the other thread will block
+
+---------------------------------------------------------
+
+User level Thread vs KErnel Level Thread
+
+------
+> User level thread manage by user level libray
+> KErnel level thread are managed by OS(system call)
+------
+> User level thread are typically faster
+> Kernel level thread are slower than user level
+-----
+Context switching is faster
+Context switching is slower
+-----
+> If user level thread perform blocking operation then all other thread get blocked.
+> If one kernel levek thread blocked, No effect on other threads
+
+-------------------------------------------------------------------
+Scheduling Algoritham:-
+> Scheduling Algoritham is a way to selecting a process in ready queue and putiing in CPU.
+> Ready queue inside RAM.
+> Running queue means(CPU)
+
+Pre-Emptive:- 
+> (SRTF)Shorted Remaining time first
+> (LRTF)Logest Remaining time first
+> (RR)Round Robin 
+> (PB)Priority based
+
+
+
+Non-Preemptive
+> FCFS(First come first serve)
+> SJF(shorted job first)
+> LJF(logest job first)
+> HRRN(Higest Response Next)
+> Multiple Queue
+
+-------------------------------------------------
+CPU Scheduling
+-> Arrival time :- The time at which process enter at ready queue.
+-> Burst time(Duration) :- Time required by a process to get executed on CUP
+-> Completion time :- The time at which process completed it's execution
+
+Turn Around time = Completion time - Arrival time
+Waiting Time = Turn aroung time - Burst time
+
+Response Time -> The time which a process get CPU first
+
+-------------------------------------------------
+
+Process Synchronizations:-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 > what is difference between multi tasking and multi threading CPU.
@@ -238,5 +465,7 @@ In the Paging method, the main memory is divided into small fixed-size blocks of
  the main memory and to avoid external fragmentation. Paging is used for faster access to data, and it is a logical concept.
 
 
+
+---------------------------------
 
 
