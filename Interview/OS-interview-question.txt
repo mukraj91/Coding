@@ -18,7 +18,7 @@ Syllable of operating system:-
 > Basic Introduction
 
 -> Type of operating system
--> Process diagram
+-> Process diagrams
 
 
 -> Process scheduling(CPU scheduling)
@@ -96,7 +96,7 @@ New(Created & Seconday memeory) -> Ready(RAM) -> Running -> Terminated
 
 
 > Long term schedulaer -> Take all the program in ready queue
-> Dispatched schulaer ->  take from Ready queue to running queue
+> Dispatched schedulaer ->  Take from Ready queue to running queue
 > Time quantum -> CUP run the process with fixed time
 > Short term schedular -> used for Dispatched
 
@@ -106,7 +106,7 @@ Fork() -> To create a child process.
 
 ---------------------------
 
-User Mode vs KErnel Mode
+User Mode vs Kernel Mode
 --------------------------------------
 
 User Mode -> System call -> Kernel Mode
@@ -123,15 +123,15 @@ Process :-
 > System called invloved in the process
 > Thread not using system call
 ----
-> Operating stsrem treats different process diffrentely
-> All user level threads treates as single task fro OS
+> Operating system treats different process diffrentely
+> All user level threads treates as single task for OS
 
 ------
 > Different process have different copies of Data, files, code
 > Thread share same copy of data and code
 -----
 > Process Context switching is slower
-> Context switching is faster
+> Thread Context switching is faster
 
 ------
 > Blocking a process will not block another process
