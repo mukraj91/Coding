@@ -1,6 +1,9 @@
 Redisys : -
 
-
+Different beetween semaphore and mutex.
+How to guard deadlock.
+Whst is Singalton Design Pattern.
+In which QC chipcode have u worked ? 6155, 8155
 What is spenlock() ?
 How to debug memeory fragmentation issue in HAL?
 How the zygote working, how is starting the zygote.
